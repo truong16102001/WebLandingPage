@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chao Upwork </title>
+    <link rel="icon" href="./assets/images/chao.jpg" type="image/png">
+
+    <!-- ajax jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <!--Nav-->
+    <div class="navbar">
+        <div class="container">
+            <a href="/" class="brand">Upwork <img src="./assets/images/chao.jpg" style="height: 30px; width: 30px;"></a>
+            <ul class="nav-links">
+                <li class="active"> <a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <!-- <li><a href="#blogs">Blogs</a></li> -->
+                <!-- <li><a href="#contact">Contact</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li class="contact-dropdown" style="width: 180px;">
+                    <a href="#contact">Contact <i class="las la-caret-down"></i></a>
+                    <ul class="contact-dropdown-content">
+                        <li><a href="#contact-staff">Contact Staff</a></li>
+                        <li><a href="#contact-ceo">Contact CEO</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div id="hero">
+        <div class="container">
+            <h1 class="heading-xl"><span id="hero-titles"></span></h1>
+            <a href="#services" class="scroll-to-down"><i class="las la-arrow-alt-circle-down"></i></a>
+        </div>
+    </div>
+
+    <!-- services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Our Services</h1>
+            </div>
+            <div class="grid three-col-grid">
+                <div class="service" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">
+                        <i class="las la-tools"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="las la-balance-scale-left"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="900">
+                    <div class="icon">
+                        <i class="las la-pen-alt"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">
+                        <i class="las la-pen-alt"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="las la-tasks"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="900">
+                    <div class="icon">
+                        <i class="las la-sitemap"></i>
+                    </div>
+                    <h3 class="heading-3">Service Title</h3>
+                    <p>We are passoniate web design quam placeat tempore, possimus natus nam, abccccs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- products -->
+    <section id="products">
+        <div class="container">
+            <div class="section-intro" data-aos="zoom-in-down">
+                <h1 class="heading-2">Our Products</h1>
+            </div>
+            <a href="#" class="grid two-col-grid">
+                <div class="product" data-aos="zoom-in-down" data-aos-delay="300">
+                    <img src="./assets/images/chao2.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Product name1</h2>
+                            <p>Product Description1</p>
+                            <i style="color: red;">10,000</i><i style="color: red;">đ</i>
+                            <button class="btn" style="color: white; margin-left: 30px;"
+                                data-image="./assets/images/chao2.jpg">Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-aos="zoom-in-down" data-aos-delay="500">
+                    <img src="./assets/images/chao3.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Product name2</h2>
+                            <p>Product Description2</p>
+                            <i style="color: red;">20,000</i></i><i style="color: red;">đ</i>
+                            <button class="btn" style="color: white; margin-left: 30px;"
+                                data-image="./assets/images/chao3.jpg">Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-aos="zoom-in-down" data-aos-delay="700">
+                    <img src="./assets/images/chao4.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Product name3</h2>
+                            <p>Product Description3</p>
+                            <i style="color: red;">30,000</i></i><i style="color: red;">đ</i>
+                            <button class="btn" style="color: white; margin-left: 30px;"
+                                data-image="./assets/images/chao4.jpg">Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-aos="zoom-in-down" data-aos-delay="900">
+                    <img src="./assets/images/chao5.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Product name4</h2>
+                            <p>Product Description 4</p>
+                            <i style="color: red;">40,000</i></i><i style="color: red;">đ</i>
+                            <button class="btn" style="color: white; margin-left: 30px;"
+                                data-image="./assets/images/chao5.jpg">Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-intro" data-aos="zoom-in-down">
+                <h1 class="heading-2">This is my website</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- blogs -->
+    <!-- <section id="blogs">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Our Blogs</h1>
+            </div>
+            <div class="grid three-col-grid">
+                <div class="blog-post" data-aos="flip-left" data-aos-delay="300">
+                    <img src="./assets/images/chao6.jpg" alt="">
+                    <h3><a href="#">Blog Post Title1</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla numquam necessitatibus laborum.
+                        Debitis at reiciendis, harum beatae optio eveniet. Numquam natus ipsum, enim commodi nihil
+                        voluptatibus ea magnam explicabo distinctio.</p>
+                </div>
+                <div class="blog-post" data-aos="flip-left" data-aos-delay="600">
+                    <img src="./assets/images/chao5.jpg" alt="">
+                    <h3><a href="#">Blog Post Title2</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla numquam necessitatibus laborum.
+                        Debitis at reiciendis, harum beatae optio eveniet. Numquam natus ipsum, enim commodi nihil
+                        voluptatibus ea magnam explicabo distinctio.</p>
+                </div>
+                <div class="blog-post" data-aos="flip-left" data-aos-delay="900">
+                    <img src="./assets/images/chao3.jpg" alt="">
+                    <h3><a href="#">Blog Post Title3</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla numquam necessitatibus laborum.
+                        Debitis at reiciendis, harum beatae optio eveniet. Numquam natus ipsum, enim commodi nihil
+                        voluptatibus ea magnam explicabo distinctio.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+
+            <div class="grid">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Contact Info</h1>
+                    </div>
+                    <div class="contact-widget">
+                        <div class="icon">
+                            <i class="las la-envelope"></i>
+                        </div>
+                        <ul>
+                            <li>chao123@gmail.com</li>
+                            <li>thuanh123@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-widget">
+                        <div class="icon">
+                            <i class="las la-phone"></i>
+                        </div>
+                        <ul>
+                            <li>0123.123.123</li>
+                            <li>0232.323.232</li>
+                        </ul>
+                    </div>
+                    <div class="contact-widget">
+                        <div class="icon">
+                            <i class="las la-map-marker-alt"></i>
+                        </div>
+                        <ul>
+                            <li>Thụy Khuê, Sài Sơn</li>
+                            <li>Yên Nội, Đồng Quang</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-up">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Drop us a line</h1>
+                    </div>
+                    <form action="https://formspree.io/f/xbjnzeez" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-input" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-input" cols="30" rows="5" autocomplete="off"
+                                placeholder="Hi there..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn" type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright <i class="las la-copyright"></i> 2024. All rights are reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="lab la-facebook"></i></a>
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- add modal -->
+    <div class="modal" id="modalBuy" tabindex="-1" role="dialog" aria-labelledby="buyModel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalCenterTitle">Order</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Phần bên trái: Thông tin sản phẩm -->
+                        <div class="col-md-6">
+                            <h5>Product Information</h5>
+                            <form id="buyForm" method="post" action="https://formspree.io/f/mayrlwdr">
+                                <div class="form-group">
+                                    <label for="txtProductName">Product Name</label>
+                                    <input type="text" name="productName" id="txtProductName" class="form-control"
+                                        readonly>
+                                </div>
+                                <div class="form-group">
+                                    <img id="productImage1" src="" alt="Product Image"
+                                        style="max-width: 100px; height: 100px;">
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="txtProductUnitPrice">Unit Price</label>
+                                            <input type="text" name="unitPrice" id="txtProductUnitPrice"
+                                                class="form-control" readonly style="color: red;">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="txtQuantity">Quantity</label>
+                                            <input type="number" min="1" name="quantity" id="txtQuantity"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtTotalPrice">Total Price</label>
+                                    <input type="text" name="totalPrice" id="txtTotalPrice" class="form-control"
+                                        readonly>
+                                </div>
+                        </div>
+                        <!-- Phần bên phải: Thông tin giao hàng -->
+                        <div class="col-md-6">
+                            <h5>Delivery Information</h5>
+                            <div class="form-group">
+                                <label for="txtCustomerName">Customer Name</label><label style="color: red;">*</label>
+                                <input type="text" name="customerName" id="txtCustomerName" class="form-control"
+                                    placeholder="Enter your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="txtCustomerEmail">Customer Email</label>
+                                <input type="email" name="customerEmail" id="txtCustomerEmail" class="form-control"
+                                    placeholder="Enter your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="txtCustomerPhone">Customer Phone</label><label style="color: red;">*</label>
+                                <input type="text" name="customerPhone" id="txtCustomerPhone" class="form-control"
+                                    placeholder="Enter your phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="txtAddress">Address</label><label style="color: red;">*</label>
+                                <input type="text" name="address" id="txtAddress" class="form-control"
+                                    placeholder="Enter shipping address" required>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="color: black;" class="btn btn-secondary"
+                        data-dismiss="modal">Close</button>
+                    <button type="button" style="color: black;" class="btn btn-primary" id="btnInsert">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var btnBuy = document.getElementById('btnInsert');
+            btnBuy.addEventListener('click', () => {
+                // Lấy giá trị của các trường nhập liệu
+                var customerName = document.getElementById('txtCustomerName').value.trim();
+                var customerPhone = document.getElementById('txtCustomerPhone').value.trim();
+                var address = document.getElementById('txtAddress').value.trim();
+
+                // Kiểm tra xem các trường có trống không
+                if (customerName === '' || customerPhone === '' || address === '') {
+                    // Ngăn chặn hành động mặc định của form (gửi đi)
+                    event.preventDefault();
+
+                    // Hiển thị thông báo lỗi
+                    alert('Please fill in all required fields.');
+                } else {
+                    document.getElementById('buyForm').submit();
+
+                    var modal = document.getElementById('modalBuy');
+                    modal.classList.remove('show');
+                    // // Ẩn modal bằng cách đặt style.display thành "none"
+                    modal.style.display = "none";
+
+                    // Loại bỏ lớp 'show' từ overlay khi đóng modal
+                    overlay.classList.remove('show');
+                }
+            })
+
+            // Lấy tất cả các nút "Buy now" trong các sản phẩm
+            var buyButtons = document.querySelectorAll('.product .btn');
+
+            // Lặp qua từng nút và thêm sự kiện click
+            buyButtons.forEach(function (button) {
+                button.addEventListener('click', function (event) {
+                    // Ngăn chặn hành vi mặc định của nút
+                    event.preventDefault();
+
+                    // Lấy ra thông tin sản phẩm tương ứng
+                    var product = this.closest('.product');
+                    var productName = product.querySelector('h2').innerText;
+                    var productDescription = product.querySelector('p').innerText;
+                    var productPrice = product.querySelector('i').innerText;
+                    var productImage = this.getAttribute('data-image');
+
+                    // Đặt các giá trị vào form buymodal
+                    document.getElementById('txtProductName').value = productName;
+                    document.getElementById('txtProductUnitPrice').value = productPrice;
+                    document.getElementById('productImage1').src = productImage;
+
+                    calculateTotalPrice();
+
+                    // Mở modal
+                    var modal = document.getElementById('modalBuy');
+                    modal.classList.add('show');
+                    modal.style.display = 'block';
+                    // Thêm lớp 'show' vào overlay khi mở modal
+                    overlay.classList.add('show');
+                });
+            });
+
+            // Set default minimum value for quantity input
+            var quantityInput = document.getElementById('txtQuantity');
+
+            quantityInput.value = '1'; // Set default value to 1
+
+
+            // Function to calculate total price
+            function calculateTotalPrice() {
+                // Get quantity and unit price
+                var quantity = parseInt(quantityInput.value);
+                var unitPrice = parseFloat(document.getElementById('txtProductUnitPrice').value.replace(',', ''));
+                // Calculate total price
+                var totalPrice = quantity * unitPrice;
+                // Set total price value
+                document.getElementById('txtTotalPrice').value = totalPrice + 'đ';
+            }
+
+            // Call calculateTotalPrice function when quantity input changes
+            quantityInput.addEventListener('input', calculateTotalPrice);
+
+            // Call calculateTotalPrice function initially to set the total price based on default quantity
+            calculateTotalPrice();
+
+            // Lấy ra tất cả các nút close và các button có class "btn-secondary"
+            var closeButtons = document.querySelectorAll(".modal .close, .modal button.btn-secondary");
+            var overlay = document.querySelector(".overlay");
+
+            // Thêm sự kiện click cho từng nút close
+            closeButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+
+                    var modal = document.getElementById('modalBuy');
+                    modal.classList.remove('show');
+                    // // Ẩn modal bằng cách đặt style.display thành "none"
+                    modal.style.display = "none";
+
+                    // Loại bỏ lớp 'show' từ overlay khi đóng modal
+                    overlay.classList.remove('show');
+                });
+            });
+
+        });
+    </script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+
+</body>
+
+</html>
